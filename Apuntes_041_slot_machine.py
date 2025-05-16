@@ -18,7 +18,6 @@ def print_row(row):
     print(" | ".join(row))
     print("*************")
 
-
 def get_payout(row, bet):
     if row[0] == row[1] == row[2]:
         if row[0] == "🍒":
