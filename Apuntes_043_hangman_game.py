@@ -1,7 +1,9 @@
 # Hangman in Python
 import random
 
-possible_words = ("apple", "banana", "coconut", "orange")
+possible_words = ("bastet", "solanum", "rance", "beatrice", "umineko", "tonto", 
+                  "dostoyevski", "tolstoi", "nietzsche", "python", "javascript",
+                  "asimov", "software", "developer", "cybersecurity", "hacker")
 
 hangman_art = {
     0: ("   ",
