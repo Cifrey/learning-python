@@ -4,11 +4,11 @@
 
 class Car:
     
-    wheels = 4 # class variable
+    wheels = 4 # class variable (class attribute)
 
     def __init__(self, model, year):
-        self.model = model # instance variable
-        self.year = year # instance variable
+        self.model = model # instance variable (instance attribute)
+        self.year = year # instance variable (instance attribute)
 
 class Student:
 
