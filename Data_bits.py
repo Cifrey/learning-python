@@ -1,3 +1,6 @@
+# logical operator = and, or, not
+# compound condition = 2 ó más logical operators en un if
+
 # .append() sólo funciona con listas, no tuplas
 
 # .add() es sólo para sets
