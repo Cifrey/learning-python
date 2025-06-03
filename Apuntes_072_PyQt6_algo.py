@@ -41,13 +41,22 @@ class MainWindow(QMainWindow):
                 border-radius: 15px;
             }
             QPushButton#button1{
-                background-color: red;
+                background-color: hsl(44, 100%, 81%);
             }
             QPushButton#button2{
-                background-color: blue;
+                background-color: hsl(202, 93%, 73%);
             }
             QPushButton#button3{
-                background-color: green;
+                background-color: hsl(295, 85%, 87%);
+            }
+            QPushButton#button1:hover{
+                background-color: hsl(44, 100%, 61%);
+            }
+            QPushButton#button2:hover{
+                background-color: hsl(202, 93%, 53%);
+            }
+            QPushButton#button3:hover{
+                background-color: hsl(295, 85%, 67%);
             }
         """) 
 
