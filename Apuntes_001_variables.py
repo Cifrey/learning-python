@@ -2,7 +2,7 @@
 # Variable = a container for a value (string, integer, float, boolean)
 
 # Strings
-first_name = "Frey"
+first_name = "Cifrey"
 food = "arroz con curry"
 email = "solastet@fake.com"
 
@@ -11,7 +11,7 @@ print(f"You like {food}")
 print(f"Your email is {email}")
 
 # Integers
-age = 28
+age = 20
 quantity = 3
 num_of_students = 30
 
