@@ -1,4 +1,5 @@
 # logical operator = and, or, not
+# membership operator = in, not in
 # compound condition = 2 ó más logical operators en un if
 # comparison operator = (==, !=, <, >, <=, >=)
 # ternary operator = one-line of if-else
@@ -55,3 +56,10 @@ Principles = {
 # Square, Triangle, etc, tenga su propia fórmula de calcular el área, y queremos asegurarnos que sí o sí
 # está implementada en el código, podemos convertirlo en un método abstracto y así para poder trabajar con
 # ello, hay que definir la fórmula para cada subclase obligatoriamente
+
+# Event loop = like an infinite loop, constantly waiting for more user input (like an app or a videogame)
+
+# Events in PyQt6 are referred to as Signals, it's the notifications emitted by widgets when something happens.
+# Which can be used also to provide additional context about what happened.
+# Slots are the receivers of signals. Any function can be used a slot by connecting the signal to it.
+# Many Qt Widgets have their own built-in slots, meaning we can hook widgets together directly.
